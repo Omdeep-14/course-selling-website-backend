@@ -6,8 +6,12 @@ userRouter.post("/signup", function (req, res) {});
 
 userRouter.post("/signin", function (req, res) {});
 
-userRouter.get("/purchases", function (req, res) {});
+userRouter.get("/purchases", function (req, res) {
+  res.json({
+    message: "ok",
+  });
+});
 
-module.export = {
+module.exports = {
   userRouter: userRouter,
 };

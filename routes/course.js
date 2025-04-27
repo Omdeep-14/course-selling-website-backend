@@ -5,6 +5,6 @@ courseRouter.get("/preview", function (req, res) {});
 
 courseRouter.post("/purchase", function (req, res) {});
 
-module.export = {
+module.exports = {
   courseRouter: courseRouter,
 };
